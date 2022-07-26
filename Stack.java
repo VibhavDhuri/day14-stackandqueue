@@ -8,6 +8,10 @@ public class Stack {
 		list.addFirst(data);
 	}
 
+	public void pop() {
+		list.deleteFirst();
+	}
+
 	public void display() {
 		list.display();
 	}

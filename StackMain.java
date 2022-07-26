@@ -12,6 +12,16 @@ public class StackMain {
 		stack.display();
 		stack.push(56);
 		stack.display();
+		System.out.println();
+		System.out.println("Stack Deleting:");
+		stack.display();
+		stack.pop();
+		stack.display();
+		stack.pop();
+		stack.display();
+		stack.pop();
+		stack.display();
+
 	}
 
 }
